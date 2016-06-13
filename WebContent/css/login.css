@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+}
+
+body{
+	background-color: #000011;
+}
+
+label{
+	font-weight:400;
+	font-size: 14pt;
+	font-family: Roboto;
+}
+
+#shadow{
+	background-color:#d4d4d4;
+	width:380px;
+	height:260px;
+	margin:140px auto 0px;
+	border-radius:5px;
+}
+
+#login-box{
+	width:360px;
+	height:240px;
+	background-color: #eee;
+	position:absolute;
+	margin:10px;
+	border-radius:5px;
+	box-shadow: 0px 0px 10px #7e7e7e;	
+	
+}
+
+#login-box-title{
+	height:45px;
+	text-align:center;
+	font: bold 14px/45;
+	font-family: Roboto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#buttons{
+	width: 260px;
+	height: 35px;
+	margin: 20px auto 0px;
+
+}
+
+ .inputs-infos{
+	width: 260px;
+	height: 30px;
+	margin: auto auto 10px;	
+}
+
+.texts{
+	font-weight:300;
+	font-size: 14pt;
+	height: 25px;
+	width: 150px;
+	float: right;
+	border-radius: 5px;
+}
+
+.bot{
+	background-color: #0077b0;
+	font-weight:400;
+	font-size: 14pt;
+	font-family: Roboto;	
+	margin: 10px auto;
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+	border: 0px;
+	cursor:pointer;	
+	box-shadow: 0px 0px 3px #858585;
+}
+
+#send{
+	float:left;
+}
+
+#cancel{
+	float:right;
+}
